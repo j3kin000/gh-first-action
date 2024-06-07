@@ -3,7 +3,6 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 import MainContent from "./MainContent";
-import { describe, expect, it } from "vitest";
 
 describe("MainContent", () => {
   it("should render a button", () => {
